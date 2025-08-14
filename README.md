@@ -2,6 +2,8 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAzure-Samples%2Fazure-ai-vercel-rag-starter&env=AZURE_SEARCH_ENDPOINT%2CAZURE_SEARCH_KEY%2CAZURE_SEARCH_INDEX_NAME%2CAZURE_SEARCH_CONTENT_FIELD%2CAZURE_SEARCH_VECTOR_FIELD%2CAZURE_SEARCH_SEMANTIC_CONFIGURATION_NAME%2CAZURE_OPENAI_API_ENDPOINT%2CAZURE_RESOURCE_NAME%2CAZURE_DEPLOYMENT_NAME%2CAZURE_EMBEDDING_DEPLOYMENT_NAME%2CAZURE_API_KEY)
 
+Live sample: https://vercelazurerag.azurewebsites.net/
+
 A [Next.js](https://nextjs.org/) application, powered by the Vercel AI SDK, that uses retrieval-augmented generation (RAG) to reason and respond with information outside of the model's training data.
 
 ![vercel-start3](https://github.com/user-attachments/assets/103d912e-652a-4bf2-b220-2cdf5f758deb)
