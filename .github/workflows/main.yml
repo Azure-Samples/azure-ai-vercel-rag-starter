@@ -25,17 +25,17 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@0717577d45739eb3c851188b29f50ed6c0b2194e # v2.8.0
+      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
     - name: Log in to ACR
-      uses: azure/docker-login@83efeb77770c98b620c73055fbb59b2847e17dc0 # v1.0.1
+      uses: azure/docker-login@15c4aadf093404726ab2ff205b2cdd33fa6d054c # v2
       with:
         login-server: ${{ secrets.ACR_REGISTRY }}
         username: ${{ secrets.ACR_USERNAME }}
         password: ${{ secrets.ACR_PASSWORD }}
 
     - name: Build and push Docker image
-      uses: docker/build-push-action@ac9327eae2b366085ac7f6a2d02df8aa8ead720a # v2.10.0
+      uses: docker/build-push-action@c3c9e263c25d99ce0380d002d59b67737d91b0dc # v7.4.0
       with:
         context: .
         file: ./Dockerfile
